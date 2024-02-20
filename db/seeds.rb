@@ -7,3 +7,6 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+# Create a movie
+Movie.create(name: "Example Movie", description: "it s greate movie", rating: 8, user_id: 1)
+Movie.create(name: "Example 1 Movie", description: "it s  1greate movie", rating: 6, user_id: 1)
